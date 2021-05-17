@@ -1,0 +1,74 @@
+alias e='vim'
+alias zshrc='e ~/.zshrc'
+
+# ls
+alias ls='ls'
+alias l='ls -lFh'
+alias la='ls -lAFh'
+alias ll='ls -lh'
+
+alias ~='cd ~'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+
+# tmux
+alias ta='tmux attach -t'
+alias tad='tmux attach -d -t'
+alias ts='tmux new-session -s'
+alias tl='tmux list-sessions'
+alias tksv='tmux kill-server'
+alias tkss='tmux kill-session -t'
+alias tx=tmuxinator
+
+# git
+alias g='git'
+
+alias ga='git add'
+alias gap='git apply'
+
+alias gb='git branch'
+
+alias gc='git commit' 
+alias gc!='git commit -v --amend'
+alias gcn!='git commit -v --no-edit --amend'
+alias gco='git checkout'
+alias gcp='git cherry-pick'
+
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gds='git diff --staged'
+
+alias gf='git fetch'
+
+alias gl='git pull'
+alias glog='git log --oneline --decorate --graph'
+
+alias gm='git merge'
+
+alias gp='git push'
+
+alias gp!='git push --force'
+
+alias grb='git rebase'
+alias grba='git rebase --abort'
+alias grbc='git rebase --continue'
+
+alias gsh='git show'
+alias gst='git status'
+
+alias gup='git pull --rebase'
+
+# Directory navigation
+alias d='dirs -v | head -10'
+alias 1='cd -'
+alias 2='cd -2'
+alias 3='cd -3'
+alias 4='cd -4'
+alias 5='cd -5'
+alias 6='cd -6'
+alias 7='cd -7'
+alias 8='cd -8'
+alias 9='cd -9'
